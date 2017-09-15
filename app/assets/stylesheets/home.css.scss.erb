@@ -1,0 +1,96 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.scss.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.lang-icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 48px;
+  height: 48px;
+  background-size: 48px 48px;
+}
+
+.ruby-lang {
+  background-image: url(<%= asset_path("icons/ruby-grey.png") %>);
+}
+.php-lang {
+  background-image: url(<%= asset_path("icons/php-grey.png") %>);
+}
+.nodejs-lang {
+  background-image: url(<%= asset_path("icons/nodejs-grey.png") %>);
+}
+.js-lang {
+  background-image: url(<%= asset_path("icons/js-grey.png") %>);
+}
+.python-lang {
+  background-image: url(<%= asset_path("icons/python-grey.png") %>);
+}
+
+.box:hover {
+  a.service-logo {
+    i.ruby-lang {
+      background-image: url(<%= asset_path("icons/ruby-white.png") %>);
+    }
+    i.php-lang {
+      background-image: url(<%= asset_path("icons/php-white.png") %>);
+    }
+    i.nodejs-lang {
+      background-image: url(<%= asset_path("icons/nodejs-white.png") %>);
+    }
+    i.js-lang {
+      background-image: url(<%= asset_path("icons/js-white.png") %>);
+    }
+    i.python-lang {
+      background-image: url(<%= asset_path("icons/python-white.png") %>);
+    }
+  }
+}
+
+#slider{
+  .slide-icon{
+    display: block;
+    width: 42px;
+    height: 42px;
+    background-color: #262626;
+    border-radius: 100px;
+    color: #afafaf;
+    font-size: 19px;
+    text-align: center;
+    line-height: 40px;
+    @media only screen and (max-width: 1024px){
+      width: 32px;
+      height: 32px;
+      line-height: 30px;
+      font-size: 15px;
+    }
+    @media only screen and (max-width: 640px){
+      width: 21px;
+      height: 21px;
+      line-height: 21px;
+      font-size: 10px;
+    }
+    @media only screen and (max-width: 400px){
+      width: 10px;
+      height: 10px;
+      line-height: 8px;
+      font-size: 8px;
+    }
+    i{
+      margin: 0 auto;
+      vertical-align: middle;
+    }
+  }
+}
+
+#why-us {
+  .big-fa {
+    font-size: 24em;
+  }
+}
+
+.team-items {
+  .img-circle {
+    width: 131px;
+    border-radius: 30%;
+  }
+}
