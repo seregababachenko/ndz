@@ -35,8 +35,8 @@ Rails.application.configure do
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
 
-  config.action_mailer.asset_host = "http://localhost:3000"
-  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+  config.action_mailer.asset_host = "nashdom.zp.ua"
+  config.action_mailer.default_url_options = { :host => 'nashdom.zp.ua' }
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.smtp_settings = {
@@ -46,7 +46,7 @@ Rails.application.configure do
       :password             => 's!LLIN3ss',
       :authentication       => 'plain',
       :enable_starttls_auto => true,
-      :domain               => 'localhost:3000'
+      :domain               => 'nashdom.zp.ua'
   }
 
 end
