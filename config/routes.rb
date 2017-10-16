@@ -6,7 +6,3 @@ Rails.application.routes.draw do
   get 'home/private_office' => 'home#private_office'
 
 end
-
-  resources :posts
-  root to: "welcome#index"
-end
